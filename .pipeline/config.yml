@@ -1,3 +1,6 @@
+general:
+  buildTool: 'npm'
+ 
 steps:
   mtaBuild:
     buildTarget: 'CF'
