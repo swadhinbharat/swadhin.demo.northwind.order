@@ -10,6 +10,16 @@ jobs:
         uses: SAP/project-piper-action@master
         with:
           command: npmExecuteLint
+      - name: mtaBuild
+        uses: SAP/project-piper-action@master
+        with:
+          command: mtaBuild
+      - name: cloudFoundryDeploy
+        uses: SAP/project-piper-action@master
+        with:
+          command: cloudFoundryDeploy
+
+
 #       - name: mavenExecuteStaticCodeChecks
 #         uses: SAP/project-piper-action@master
 #         with:
