@@ -6,11 +6,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
-      - name: mavenBuild
+      - name: npmExecuteLint
         uses: SAP/project-piper-action@master
         with:
-          command: mavenBuild
-      - name: mavenExecuteStaticCodeChecks
-        uses: SAP/project-piper-action@master
-        with:
-          command: mavenExecuteStaticCodeChecks
+          command: npmExecuteLint
+#       - name: mavenExecuteStaticCodeChecks
+#         uses: SAP/project-piper-action@master
+#         with:
+#           command: mavenExecuteStaticCodeChecks
