@@ -13,7 +13,7 @@ jobs:
       - name: mtaBuild
         uses: SAP/project-piper-action@master
         with:
-#           command: mtaBuild
+          command: mtaBuild
 #       - name: cloudFoundryDeploy
 #         uses: SAP/project-piper-action@master
 #         with:
