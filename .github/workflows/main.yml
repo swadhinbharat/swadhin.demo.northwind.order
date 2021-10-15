@@ -13,11 +13,11 @@ jobs:
       - name: mtaBuild
         uses: SAP/project-piper-action@master
         with:
-          command: mtaBuild
-      - name: cloudFoundryDeploy
-        uses: SAP/project-piper-action@master
-        with:
-          command: cloudFoundryDeploy
+#           command: mtaBuild
+#       - name: cloudFoundryDeploy
+#         uses: SAP/project-piper-action@master
+#         with:
+#           command: cloudFoundryDeploy
 
 
 #       - name: mavenExecuteStaticCodeChecks
